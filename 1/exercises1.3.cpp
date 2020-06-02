@@ -1,6 +1,4 @@
-// /*
-//  * Exercise 1.7
-//  */
+// // Exercise 1.7
 // /*
 //  * comment pairs /*   */cannot nest.
 //  * "cannot nest" is considered source code,
@@ -11,9 +9,7 @@
 //     return 0;
 // }
 
-// /*
-//  * Exercise 1.8
-//  */
+// // Exercise 1.8
 // #include<iostream>
 // int main()
 // {
