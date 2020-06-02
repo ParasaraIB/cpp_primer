@@ -1,6 +1,4 @@
-// /*
-//  *Exercise 1.3
-//  */
+// // Exercise 1.3
 // #include <iostream>
 // int main()
 // {
@@ -8,9 +6,7 @@
 //     return 0;
 // }
 
-// /*
-//  *Exercise 1.4
-//  */
+// // Exercise 1.4
 // #include <iostream>
 // int main()
 // {
@@ -22,9 +18,7 @@
 //     return 0;
 // }
 
-// /*
-//  *Exercise 1.5
-//  */
+// //  Exercise 1.5
 // #include <iostream>
 // int main()
 // {
@@ -44,11 +38,11 @@
 //     return 0;
 // }
 
-// /* Exercise 1.6
-//  * The program is not legal due to multiple 
+// // Exercise 1.6
+// /* The program is not legal due to multiple 
 //  * semicolon insertion before the ostream is ended 
 //  * by std::endl.
-//  * /
+//  */
 // #include <iostream>
 // int main()
 // {
