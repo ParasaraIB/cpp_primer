@@ -1,0 +1,26 @@
+# Exercise 2.1
+* int is used to represent whole numbers. Unsigned type of integer is the value
+  greater than or equal to zero, such as: 0, 1, 2, .... Signed type of int
+  are all the whole numbers including negatives. Signed means it has a sign
+  that consists of two types: positive and negative.
+* long is used to represent whole numbers with greater size in terms of memory
+  occupied to store the value. int can only store as many as 16 bits of size while
+  long is the extended version which can store up to 32 bits integer.
+* long long is the extended version of long which can store up 64 bits integer.
+* short is almost the same to int in several CPU architectures. However, it is
+  guaranteed that short will never be greater than int in terms of memory occupation
+  in the system. For high-end architectures, int can store as many as 32 bits numbers
+  while short remains 16 bits.
+* float and double are used to initialize the data type of numbers with decimal points.
+  The difference simply lies between the precision of the decimal point it can represents.
+  float has 6 significant digits while double has 10.
+
+# Exercise 2.2
+To calculate mortgage payment it is appropriate to initialize:
+* long double rate; // it is chosen to accomodate extended-precision needed to represent
+  the payment rate since banks state its rate as percentage with double-trailling decimal.
+  For example: 10.25%.
+* int principal; // The amount that is owed by bank usually in the whole number, such as:
+  $5,000,000.
+* double payment; // Due to multiplication with rate (to the power of mortgage term) the
+  currency standard becomes as specific as its cent. For example: $500,000.25
