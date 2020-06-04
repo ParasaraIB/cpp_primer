@@ -3,13 +3,13 @@
   greater than or equal to zero, such as: 0, 1, 2, .... Signed type of int
   are all the whole numbers including negatives. Signed means it has a sign
   that consists of two types: positive and negative.
-* long is used to represent whole numbers with greater size in terms of memory
-  occupied to store the value. int can only store as many as 16 bits of size while
-  long is the extended version which can store up to 32 bits integer.
-* long long is the extended version of long which can store up 64 bits integer.
+* long is used to represent whole numbers with greater variants in terms of memory
+  occupied to represent the value. int can only represent as many as 16 bits numbers while
+  long is the extended version which can represent up to 32 bits integer.
+* long long is the extended version of long which can represent up 64 bits integer.
 * short is almost the same to int in several CPU architectures. However, it is
   guaranteed that short will never be greater than int in terms of memory occupation
-  in the system. For high-end architectures, int can store as many as 32 bits numbers
+  in the system. For high-end architectures, int can represent as many as 32 bits numbers
   while short remains 16 bits.
 * float and double are used to initialize the data type of numbers with decimal points.
   The difference simply lies between the precision of the decimal point it can represents.
