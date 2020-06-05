@@ -1,0 +1,30 @@
+# Exercise 2.27
+(b) int *const p2 = &i2;
+    Legal if and only if i2 had already defined in such a way so that it don't
+    change its type, in this case int. Since pointer is an object by itself, 
+    pointer can also have const object type just like any other object.
+(d) const int *const p3 = &i2;
+    This initialization is legal if and only if i2 had already defined with the
+    appropriate type, i.e. int or const int (in this case). p3 is a constant pointer 
+    whose type is const int. 
+(e) const int *p1 = &i2;
+    It is legal to have pointer with const type since pointer is an object. As long
+    as i2 is int then it will be fine.
+
+# Exercise 2.28
+(a) int i, *const cp;
+    This is illegal due to the uninitialized cp variable. Since it is const pointer,
+    it must follow the protocol of const type.
+(b) int *p1, *const p2;
+    p2 is illegal. const pointer have to be initialized.
+(c) const int ic, &r = ic;
+    ic is illegal since it has not been initialized yet.
+(d) const int *const p3;
+    p3 is illegal. const type pointer have to be initialized.
+(e) const int *p;
+    this is actually can be compiled, but it leads to Segmentation fault when it is
+    executed.
+
+# Exercise 2.29
+Considering all variables are in 2.28, all assignment are illegal since all variables
+are illegal.
