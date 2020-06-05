@@ -1,0 +1,10 @@
+# Exercise 2.26
+(a) const int buf;
+    It is invalid. const type variable have to be initialized.
+(b) int cnt = 0;
+    This is valid.
+(c) const int sz = cnt;
+    This is valid.
+(d) ++ cnt; ++sz;
+    This isn't valid for sz since increment operation is changing the original
+    value of initialized variable.
