@@ -1,11 +1,11 @@
 # Exercise 2.25
 (a) int* ip, i, &r = i;
     &r is reference to int i.
-    i is an object declared as int type (default initialization).
+    i is an object defined as int type (default initialization).
     ip is a pointer to int.
 (b) int i, *ip = 0;
     ip is a pointer to literal 0.
-    i is declared int object with default initialization.
+    i is defined int object with default initialization.
 (c) int* ip, ip2;
-    ip2 is a declared int object with default initialization.
+    ip2 is a defined int object with default initialization.
     ip is a pointer to int.
