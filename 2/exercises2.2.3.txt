@@ -1,0 +1,7 @@
+(a) int double  = 3.14
+    is invalid since double is reserved as keywords.
+(c) int catch-22;
+    catch is reserved as keywords so that it can't be
+    used as identifier.
+(d) int 1_or_2 = 1;
+    identifier cannot begin with numeric character.
