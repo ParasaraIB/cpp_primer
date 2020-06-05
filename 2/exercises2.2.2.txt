@@ -1,0 +1,10 @@
+# Exercise 2.11
+(a) extern int ix = 1024;
+    This is a declaration with explicit initializer hence it can be called
+    as definition. The extern type definition is overrode by the initializer 
+    on variable ix so that it becomes defined. If this definition is done
+    inside a function than error will occur.
+(b) int iy;
+    iy is defined as the type of int with default initializers.
+(c) extern int iz;
+    iz is declared since there is extern definition preceedes the int definition.
